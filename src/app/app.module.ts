@@ -4,10 +4,12 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { MaterialModule } from './material.module';
+import { NavBarComponent } from './component/nav-bar/nav-bar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    NavBarComponent,
   ],
   imports: [
     BrowserModule,
